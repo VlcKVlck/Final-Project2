@@ -1,0 +1,75 @@
+
+.site, main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+td {
+  border: 1px darkgray solid;
+  border-radius: 5px;
+  height: 10vh;
+  width: 10vh;
+  box-shadow: 1px 1px lightgray;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-weight:bolder;
+  :focus{
+    border: 3px black solid;
+  }
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10vh;
+  overflow-y: clip;
+  overflow-x: clip;
+
+}
+button {
+  padding: 0;
+  margin:1px;
+  margin-top: 3px;
+  border: 1px darkgray solid;
+  border-radius: 5px;
+  height: 7vh;
+  width: 7vh;
+  box-shadow: 1px 1px lightgray;
+  font-weight: bolder;
+  animation-duration: 4s;
+
+
+}
+button img{
+  height: 1.5vh;
+}
+.widerbutton{
+  width: 11vh;
+}
+button:active {
+    transform: translateY(1px);
+    color:white;
+    border: none;
+  }
+button:hover{
+  background-color: red;
+  cursor: pointer;
+}
+
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+
+
+
+
+
